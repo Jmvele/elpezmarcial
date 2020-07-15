@@ -1,0 +1,13 @@
+{
+  "name": "el_pez_marcial",
+  "version": "1.0.0",
+  "description": "seafood",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "author": "Jesus Velez",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Bold.otf);
+    src: url(../fonts/Gotham-Light.otf);
+    
+}
+
+@font-face{
+    font-family: DK Cinnabar Brush;
+    src: url(../fonts/DK\ Cinnabar\ Brush.ttf);
+}
+
+@font-face{
+    font-family: Assa Fonts-MonsterFonts-Type Of Chalk;
+    src: url(../fonts/Assa\ Fonts-MonsterFonts-Type\ Of\ Chalk.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: Gotham;
+}
+
+
+.cover{
+    width: 100%;
+    height: auto;
+}
+
+.topmainbar{
+    position: absolute;
+    width: 100%;
+}
+
+.bg-dark {
+    background-color:#f73400!important;
+}
+
+.animated {
+    background-image: url(../img/icons.gif);
+    
+}
+
+.fila2{
+    background-color: #009fe3;
+}
+
+.fila2 h2{
+    font-family: DK Cinnabar Brush;
+    font-size: 3em;
+    color: white;
+}
+
+.fila2 p{
+    font-family: Assa Fonts-MonsterFonts-Type Of Chalk;
+    font-size: 3em;
+    color: #00558b;
+}
+
+main svg {
+    width: 15%;
+    height: auto;
+    color: white!important;
+    margin: 20px;
+}
+footer svg {
+    width: 10%;
+    height: auto;
+    color: white!important;
+    margin: 20px;
+}
+.fila2 h3{
+    font-family: Assa Fonts-MonsterFonts-Type Of Chalk;
+    font-size: 1.5em;
+    color: #00558b;
+
+}
+
+.fila3{
+    background-color:#00558b;
+}
+
+.fila3 h2{
+    font-family: Assa Fonts-MonsterFonts-Type Of Chalk;
+    font-size: 3em;
+    color: #009fe3;
+}
+
+.fila4{
+    background-color:#f73400;
+}
+
+.comments{
+    font-size: 1em!important;
+    font-family: Gotham!important;
+    font-weight: bold;
+    color: white!important;
+}
+
+.map{
+    width: 90%;
+    height: 100%;
+    color: white;
+    font-weight: lighter;
+}
+
+#section3{
+    width: 100% ;
+    height: auto;
+}
+
+
+@media all and (max-width: 768px){
+
+    .fila2 h2{
+        font-size: 1.5em;
+    }
+    .fila2 p{
+        font-size: 1.5em;
+    }
+    .fila2 h3{
+        font-size: 1em;
+    }
+    .fila3 h2{
+        font-size: 1.5em;
+    }
+
+    #logo-circle{
+        width: 20%;
+        height: auto;
+        
+    }
+}
+
